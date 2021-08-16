@@ -1,34 +1,49 @@
 header{
-  display: flex;
-  align-items: center;
-  width: 100%;
-  background-color: white;
-  position:fixed;
-  height: 75px;
   font-family: 'Noto Serif JP', serif;
+   width: 100%;
+  color:black;
+  background-color:white;
+  text-align:center;
+  margin-right:0px;
+  margin-left:0px;
+  text-align:center;
+  align-items: center;
+  position: fixed;
+  justify-content:center;
+   border-bottom: 3px solid #000;
+   height: 80px;
+}
+
+
+
+header h4{
+  font-family: 'Noto Serif JP',serif;
+  font-weight: bolder;
+   font-size: 35px;
+  font-weight:200;
+  margin-top: 0px;
+  text-align:center;
+  align-items: center;
+  display:flex;
+  justify-content:center;
+  margin-top: 1rem;
+  width:100%;
+}
+
+header img{
+  width: 40px;
+  height: 40px;
+}
+
+.relleno{
+  height: 80px;
   background-color: white;
-  margin:auto;
-  border-bottom: black 3px solid;
 }
 
 .Contenedormayor{
   width: 100%;
+  min-width: 100vw;
   max-width: 100vw;
-}
-
-header h4{
-  padding-top: 1rem;
-  color:black;
-  font-size:30px;
-  padding-left: 15rem;
-}
-
-
-header p{
-  text-decoration:none;
-  color:black;
-  margin-top:10px;
-  font-size:18px;
 }
 
 title{
@@ -78,17 +93,17 @@ overflow-x: hidden;
 .logo1{
   width: 70px;
   height: 70px;
-  margin-left: 10px;
-  margin-top: 2px;
 }
-
 
 .seccion1{
   background-image: url("/imagenes/2.JPG");
   background-repeat: no-repeat;
-  background-color: #6fe388;
+  //background-color: #6fe388;
+  //background-image: linear-gradient(-45deg, #e3ddd9 50%, #36221c 50%);
   max-width: 100vw;
+  min-width: 100vw;
   min-height: 100vh;
+  width: 100%;
   padding: 0;
   margin:0;
   overflow-x: hidden;
@@ -116,4 +131,71 @@ overflow-x: hidden;
   display:flex;
   align-items: center;
   justify-content: center;
+}
+
+.carousel .carousel-item{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+  width: 100%;
+  height: 800px;
+  min-width: 50vw;
+}
+
+.container{
+  width: 100vh;
+}
+.carousel{
+  min-height: 450px;
+  margin-top: 50px;
+  width: 100%;
+}
+
+.carousel .carousel-item img{
+  width: 90%;
+  height: 59%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.carousel .indicators .indicator-item{
+  background-color: black;
+}
+
+.mapa{
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url("/imagenes/1.JPG");
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+  background-size:cover;
+  width: 100vw;
+}
+
+.mapa iframe{
+  margin-top: 2rem;
+  border-radius: 5px;
+}
+
+
+.mapap{
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.7);
+  margin: auto;
+  margin-top: 2rem;
+  border-radius: 1rem;
+  height: 20px;
+  width: 30%;
+  font-weight: bolder;
+  color: black;
+}
+
+.mapap p{
+  font-size: 25px;
+  font-family: 'Noto Serif JP', serif;
+  margin-top: 0px;
 }

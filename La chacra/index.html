@@ -8,7 +8,22 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap" rel="stylesheet">
 <link rel="shortcut icon" href="Web/Logo-01.png">
-<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Caompatible" content="ie=edge">
+<link href="font-awesome/css/all.css" rel="stylesheet">
+
+<!--materialize-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+
+<!-- CSS Estilos -->
+<link rel="stylesheet" href="carrusel/css/estilos.css">
+<!-- JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<!-- JS Main -->
+<script src="carrusel/js/main.js"></script>
+
+
 
 <head>
   <body>
@@ -16,28 +31,64 @@
   <meta charset="utf-8">
   <title>Chacra la Granja</title>
 
-  <header>
-    <h4>Chacra La Granja </h4><img class="logo1" src="Web/Logo-01.png">
-    <h4>
-      <p>Bienvenido a nuestra pagina oficial</p>
-    </h4>
+
+    <header>
+      <h4>Chacra La Granja <img src="Web/Logo-01.png"> </h4>
   </header>
 </head>
 
+<div class="relleno">
 
-
-  <div style="display: flex;background-color:red;width:100%;height:75px;">
-  </div>
+</div>
 
   <div class="cartel">
     Para disfrutar en familia
   </div>
 
+
+
+
   <section class="seccion1">
+
+    <div class="container">
+      <div class="row">
+        <div class="col s12">
+          <div class="carousel center-align">
+
+            <div class="carousel-item">
+              <img src="carrusel/imagen/IMG_8846.jpg">
+            </div>
+
+            <div class="carousel-item">
+              <img src="carrusel/imagen/IMG-20190301-WA0015.jpg">
+            </div>
+
+            <div class="carousel-item">
+              <img src="carrusel/imagen/IMG_8905.jpg">
+            </div>
+
+            <div class="carousel-item">
+              <img src="carrusel/imagen/IMG_8845.jpg">
+            </div>
+
+            <div class="carousel-item">
+              <img src="carrusel/imagen/Chacra LG-05.jpg">
+            </div>
+
+            <div class="carousel-item">
+              <img src="carrusel/imagen/Chacra LG-05.jpg">
+            </div>
+
+          </div>
+
+
+        </div>
+      </div>
+
+    </div>
 
 
     <div class="contenedor">
-
       <h4>¿Quienes somos?</h4>
       <p style="line-height:30px;">Las propuestas para los turistas son variadas y estamos abiertos a escuchar más. Tenemos un galpón grande acondicionado para eventos hasta 160 personas, con cocina y baños, donde lo ofrecemos, además, para todos
         aquellos que quieran alquilarlo. El lugar se mezcla con el verde césped del jardín de la chacra, rodeado de hermosas flores, lo cual hace pensar en la instalación de carpas para ampliar el número de invitados. </p>
@@ -54,29 +105,31 @@
       </p>
 </div>
 
+<!--
     <div class="contenedor">
       <h4><a style="text-decoration:none;color:black" href="galeria.html">Galeria</a></h4>
       <p style="line-height:30px;text-align:center;">Te dejamos nuestra galeria de imagenes de nuestra Chacra.‎<a style="color:black;" href="galeria.html">CLICK AQUI</a></p>
     </div>
+-->
 
-    <div class="contenedor">
-      <h4><a style="text-decoration:none;color:black" href="mapa.html">Ubicación</a></h4>
-      <p style="text-align: center;line-height:30px;">Nos encontramos en la zona del Cuartel V, Morse, en el km 120.9 de la Ruta Provincial 46, te dejamos nuestro mapa para una mejor Ubicación.<a style="color:black;" href="mapa.html">CLICK AQUI</a></p>‎
+    <div style="text-align:center;" class="contenedor">
+      <h4><a style="text-decoration:none;color:black" href="mapa.html">Ubicación<i class="fas fa-map-marker-alt"></i></a></h4>
+      <p style="text-align: center;line-height:30px;">Nos encontramos en la zona del Cuartel V, Morse, en el km 120.9 de la Ruta Provincial 46, te dejamos nuestro mapa para una mejor Ubicación.</p>‎
+      <a style="text-decoration: underline;color:black;" href="mapa.html">CLICK AQUI PARA ABRIR MAPA</a>
     </div>
 
     <div class="redes">
       Seguinos en nuestras Redes Sociales
       <div class="redes1">
         <a style="text-decoration:none;color:black;text-align:center;align-items: center;display:flex;justify-content:center" href="https://www.instagram.com/chacralagranja/?hl=es">Instagram <img style="margin-left: 20px;width:30px;height:30px;"
-            src="/imagenes/Instagram.png" ></a>
-        <a style=";margin-left: 300px;text-decoration:none;color:black;text-align:center;align-items: center;display:flex;justify-content:center" href="https://www.facebook.com/chacralagranja/">Facebook<img style="width:80px;height:40px;"
-            src="/imagenes/facebook.png"></a>
+            src="imagenes/Instagram.png" ></a>
+        <a style="margin-left: 300px;text-decoration:none;color:black;text-align:center;align-items: center;display:flex;justify-content:center" href="https://www.facebook.com/chacralagranja/">Facebook<img style="width:80px;height:40px;"
+            src="imagenes/facebook.png"></a>
       </div>
     </div>
   </section>
 
 
-  <!--<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9835.481655960613!2d-60.8003398288464!3d-34.649698812901676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b8c317242baa05%3A0x34daf8b64f48a72f!2sChacra%20la%20Granja!5e0!3m2!1ses!2sar!4v1624996161519!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>-->
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <a href="https://api.whatsapp.com/send?phone=2364383175&text=Hola,%20me%20gustar%C3%ADa%20obtener%20mas%20informaci%C3%B3n%20sobre%20la%20chacra!" class="float" target="_blank">
