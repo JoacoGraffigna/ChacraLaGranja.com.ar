@@ -177,6 +177,9 @@ overflow-x: hidden;
 .mapa iframe{
   margin-top: 2rem;
   border-radius: 5px;
+  width: 70%;
+
+
 }
 
 
@@ -186,8 +189,8 @@ overflow-x: hidden;
   margin: auto;
   margin-top: 2rem;
   border-radius: 1rem;
-  height: 20px;
-  width: 30%;
+  height: 3rem;
+  width: 50%;
   font-weight: bolder;
   color: black;
 }
