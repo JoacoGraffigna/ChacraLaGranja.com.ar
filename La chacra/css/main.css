@@ -149,6 +149,8 @@ overflow-x: hidden;
   min-height: 450px;
   margin-top: 50px;
   width: 100%;
+  background: rgba(0,0,0,0.3);
+  border-radius: 15px;
 }
 
 .carousel .carousel-item img{
@@ -177,11 +179,8 @@ overflow-x: hidden;
 .mapa iframe{
   margin-top: 2rem;
   border-radius: 5px;
-  width: 70%;
-
-
+  width: 90%;
 }
-
 
 .mapap{
   padding: 2rem;
