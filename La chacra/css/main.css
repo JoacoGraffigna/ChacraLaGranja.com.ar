@@ -100,8 +100,8 @@ overflow-x: hidden;
 }
 
 .seccion1{
-  background-image: url("/imagenes/2.JPG"), url("/imagenes/1.JPG");
-  background-repeat: no-repeat, no-repeat, repeat;
+  background-image: url("/imagenescarrusel/IMG_8845.JPG"), url("/imagenescarrusel/IMG_8863.JPG"),url("/imagenescarrusel/image00019.jpeg"),url("/imagenescarrusel/015-buffoni.jpg"),url("/imagenescarrusel/IMG_8935.JPG"),url("/imagenescarrusel/.JPG"),url("/imagenescarrusel/.JPG"),url("/imagenescarrusel/.JPG"),url("/imagenescarrusel/.JPG"),url("/imagenescarrusel/.JPG"),url("/imagenescarrusel/.JPG");
+  background-repeat:no-repeat,no-repeat;
   background-position: top center, bottom center, center center;
   max-width: 100vw;
   min-width: 100vw;
@@ -112,6 +112,16 @@ overflow-x: hidden;
   overflow-x: hidden;
   background-size:contain;
   font-family: 'Noto Serif JP', serif
+}
+
+.productos{
+  line-height:30px;
+  font-size: 18px;
+}
+
+.servicios{
+  line-height:30px;
+  font-size: 18px
 }
 
 .redes{
