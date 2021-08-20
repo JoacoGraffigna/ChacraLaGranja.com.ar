@@ -219,5 +219,6 @@ overflow-x: hidden;
 @media (max-width: 600px) {
   .seccion1{
     background-image: url("/imagenescarrusel/mobile.JPG");
+    background-size: cover;
   }
 }
