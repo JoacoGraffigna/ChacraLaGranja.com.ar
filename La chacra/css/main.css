@@ -12,6 +12,7 @@ header{
   justify-content:center;
    border-bottom: 3px solid #000;
    height: 80px;
+   z-index: 1000;
 }
 
 
@@ -100,9 +101,9 @@ overflow-x: hidden;
 }
 
 .seccion1{
-  background-image: url("/imagenescarrusel/IMG_8845.JPG"), url("/imagenescarrusel/IMG_8863.JPG"),url("/imagenescarrusel/image00019.jpeg"),url("/imagenescarrusel/015-buffoni.jpg"),url("/imagenescarrusel/IMG_8935.JPG"),url("/imagenescarrusel/.JPG"),url("/imagenescarrusel/.JPG"),url("/imagenescarrusel/.JPG"),url("/imagenescarrusel/.JPG"),url("/imagenescarrusel/.JPG"),url("/imagenescarrusel/.JPG");
-  background-repeat:no-repeat,no-repeat;
-  background-position: top center, bottom center, center center;
+  background-image: url("/imagenescarrusel/IMG_8845.JPG"), url("/imagenescarrusel/IMG_8863.JPG");
+  background-repeat:no-repeat, no-repeat;
+  background-position: top center, bottom center;
   max-width: 100vw;
   min-width: 100vw;
   min-height: 100vh;
@@ -213,4 +214,10 @@ overflow-x: hidden;
   font-size: 25px;
   font-family: 'Noto Serif JP', serif;
   margin-top: 0px;
+}
+
+@media (max-width: 600px) {
+  .seccion1{
+    background-image: url("/imagenescarrusel/mobile.JPG");
+  }
 }
