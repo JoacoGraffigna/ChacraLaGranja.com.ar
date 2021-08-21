@@ -101,7 +101,7 @@ overflow-x: hidden;
 }
 
 .seccion1{
-  background-image: url("/imagenescarrusel/IMG_8845.JPG"), url("/imagenescarrusel/IMG_8863.JPG");
+  background-image: url("/imgopt/6.JPG"), url("/imgopt/7.JPG");
   background-repeat:no-repeat, no-repeat;
   background-position: top center, bottom center;
   max-width: 100vw;
@@ -185,7 +185,7 @@ overflow-x: hidden;
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-image: url("/imagenes/1.JPG");
+  background-image: url("/imgopt/7.JPG");
   background-repeat: no-repeat;
   overflow-x: hidden;
   background-size:cover;
@@ -218,7 +218,7 @@ overflow-x: hidden;
 
 @media (max-width: 600px) {
   .seccion1{
-    background-image: url("/imagenescarrusel/mobile.JPG");
+    background-image: url("/imgopt/mobile.JPG");
     background-size: cover;
   }
 }
