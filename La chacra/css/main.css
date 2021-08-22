@@ -221,4 +221,7 @@ overflow-x: hidden;
     background-image: url("/imgopt/mobile.JPG");
     background-size: cover;
   }
+  .cartel{
+    height: 4rem;
+  }
 }
