@@ -224,4 +224,7 @@ overflow-x: hidden;
   .cartel{
     height: 4rem;
   }
+  header h4{
+    font-size: 30px;
+  }
 }
