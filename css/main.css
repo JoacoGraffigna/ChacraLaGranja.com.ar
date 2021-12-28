@@ -177,6 +177,7 @@ html, body {
   background-color: black;
 }
 
+
 .mapa {
   min-height: 100vh;
   justify-content: center;
@@ -226,4 +227,8 @@ html, body {
   header h4 {
     font-size: 30px;
   }
+}
+
+.redes1 a:hover{
+  opacity: 0.4;
 }
